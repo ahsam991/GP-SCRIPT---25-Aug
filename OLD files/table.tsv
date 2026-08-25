@@ -1,0 +1,12 @@
+Topic	Old Script	New Script	What I Need
+Date Handling	Date must be changed manually every day to generate reports.	Date selection is handled through a dedicated interface/module.	No change required. Keep the existing old script process.
+Report Download	Reports are generated and downloaded directly.	Reports are generated through the new module and saved to a selected location.	No change required.
+Password Protection	If password protection is enabled, only download occurs. If disabled, both download and email sending occur.	Managed through the new module.	No change required.
+Report Save Location	Fixed within the script.	User can select the report save path from the interface.	No change required.
+Email Recipient Selection	Uses the existing recipient configuration.	User can select the recipient file from the interface.	No change required.
+File Generation	Generates 6 circle-wise files and stores them in a single ZIP file.	Generates circle-wise files separately.	No change required.
+Email Sending	Sends one email with the ZIP file containing all 6 circle reports.	Matches sheet names from the recipient list file and sends 6 separate circle-wise emails automatically.	Implement this functionality in the old script.
+Recipient Mapping	No circle-wise recipient mapping.	Circle name is matched with the corresponding sheet name in the recipient list file.	Add this matching logic to the old script.
+Mail Distribution	All circles receive reports through one combined email.	Each circle receives its own report through a separate email.	Send separate emails for each circle from the old script.
+Visit Data Accuracy	Returns the expected and complete visit data.	Returns significantly fewer visit records than expected.	Continue using the old script to ensure accurate data.
+User Interface	No additional interface required.	Requires a separate module/interface.	Do not add any new interface or module.

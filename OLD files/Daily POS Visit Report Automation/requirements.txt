@@ -1,0 +1,11 @@
+pandas
+psycopg2-binary
+openpyxl
+XlsxWriter
+sqlalchemy
+matplotlib
+dataframe_image
+xlwings
+Pillow
+pydrive
+pydrive2
